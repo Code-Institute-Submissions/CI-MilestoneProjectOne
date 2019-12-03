@@ -1,0 +1,11 @@
+body {
+    font-family: 'Helvetica', 'roboto',  sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(250, 0, 0);
+    border: 0;
+}
