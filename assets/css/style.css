@@ -8,17 +8,17 @@ body {
     background-color: rgba(0, 0, 0, 0);
 }
 
-.navbar-brand {
-  font-size: 1.75em;  
-}
-
 nav div a {
-    font-size: 1.25em;
+    font-size: 1.1em;
     color: rgb(255, 255, 255)!important;
 }
 
 nav div a:hover{
-    color: rgb(255, 220, 220)!important;
+    color: rgba(255,255,255,0.5)!important;
+}
+
+.navbar-brand {
+  font-size: 1.7em;
 }
 
  .navbar-toggler:focus, .navbar-toggler:active {
@@ -49,3 +49,28 @@ nav div a:hover{
     background-color: rgba(0, 0, 0, 0.65);
 }
 
+#signupcontainer h1 {
+    font-size: 7vw;
+}
+
+#signupcontainer h2 {
+    font-size: 3vw;
+}
+
+#signupbutton {
+    text-decoration: none;
+    padding-top: 35px;
+    font-size: 1.25em;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.5);
+    cursor: pointer;
+}
+
+#signupbutton:hover {
+    background-color: rgba(255,255,255,0.25);
+}
