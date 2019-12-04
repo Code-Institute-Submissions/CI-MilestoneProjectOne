@@ -4,8 +4,23 @@ body {
 
 /* Navbar */
 .navbar {
-    margin-bottom: 10px;
     color: rgb(255, 255, 255);
     background-color: rgba(250, 0, 0);
-    border: 0;
+}
+
+.navbar-brand {
+  font-size: 1.75em;  
+}
+
+nav div a {
+    font-size: 1.25em;
+    color: rgb(255, 255, 255)!important;
+}
+
+nav div a:hover{
+    color: rgb(255, 220, 220)!important;
+}
+
+ .navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
 }
