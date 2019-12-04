@@ -1,0 +1,51 @@
+body {
+    font-family: 'Helvetica', 'roboto',  sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-brand {
+  font-size: 1.75em;  
+}
+
+nav div a {
+    font-size: 1.25em;
+    color: rgb(255, 255, 255)!important;
+}
+
+nav div a:hover{
+    color: rgb(255, 220, 220)!important;
+}
+
+ .navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+}
+
+
+/* sign up */
+
+#landingcontainer {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../images/Gym_floor_background_image.jpg') no-repeat center fixed;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
