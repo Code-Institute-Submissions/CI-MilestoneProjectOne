@@ -5,25 +5,26 @@ body {
 /* landing screen */
 
 #landingcontainer {
-    height: 100vh;
     position: absolute;
-    top: 0;
-    left: 0;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
     background: url('../images/Gym_floor_background_image.jpg') no-repeat center fixed;
     background-size: cover;
-    align-items: Middle;
-    justify-content: center;
-    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 100vh;
 }
 
 .opaque-overlay {
     position: absolute;
     top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
+    left:0;
+    height: 100vh;
+    width: 100vw;
     background-color: rgba(0, 0, 0, 0.65);
 }
+
 
 /* Navbar */
 .navbar {
@@ -33,17 +34,20 @@ body {
 
 nav div a {
     font-size: 1.1em;
-    color: rgb(255, 255, 255)!important;
+    color: rgba(255, 0, 0, 0.8)!important;
 }
 
 nav div a:hover{
-    color: rgba(255,255,255,0.5)!important;
+    color: rgba(255, 0, 0, 0.5)!important;
 }
 
 .navbar-brand {
   font-size: 1.7em;
 }
 
+.fa-dumbbell{
+    color: rgba(255, 0, 0, 0.8);
+}
  .navbar-toggler:focus, .navbar-toggler:active {
     outline: none;
 }
@@ -52,35 +56,35 @@ nav div a:hover{
 /* sign up */
 
 #signupcontainer {
-    margin-top: 20vh;
+    height: 93vh;
+    color: rgb(255, 255, 255);
 }
-  
 
 #signupcontainer h1 {
-    font-size: 7vw;
-    
+    font-size: 8vw;   
 }
 
 #signupcontainer h2 {
-    font-size: 3vw;
+    font-size: 4vw;
     
 }
 
 #signupbutton {
     text-decoration: none;
     margin-top: 10px;
-    padding-top: 35px;
-    font-size: 1.25em;
-    height: 100px;
-    width: 100px;
+    margin-bottom: 75px;
+    padding-top: 27px;
+    font-size: 1em;
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
     color: #fff;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255, 0, 0, 0.8);
     cursor: pointer;
 }
 
 #signupbutton:hover {
-    background-color: rgba(255,255,255,0.25);
+    background-color: rgba(255, 0, 0, 0.5);
 }
