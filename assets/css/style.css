@@ -2,6 +2,29 @@ body {
     font-family: 'Helvetica', 'roboto',  sans-serif;
 }
 
+/* landing screen */
+
+#landingcontainer {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../images/Gym_floor_background_image.jpg') no-repeat center fixed;
+    background-size: cover;
+    align-items: Middle;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
 /* Navbar */
 .navbar {
     color: rgb(255, 255, 255);
@@ -28,37 +51,24 @@ nav div a:hover{
 
 /* sign up */
 
-#landingcontainer {
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: url('../images/Gym_floor_background_image.jpg') no-repeat center fixed;
-    background-size: cover;
-    align-items: center;
-    justify-content: center;
-    color: rgb(255, 255, 255);
+#signupcontainer {
+    margin-top: 20vh;
 }
-
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.65);
-}
+  
 
 #signupcontainer h1 {
     font-size: 7vw;
+    
 }
 
 #signupcontainer h2 {
     font-size: 3vw;
+    
 }
 
 #signupbutton {
     text-decoration: none;
+    margin-top: 10px;
     padding-top: 35px;
     font-size: 1.25em;
     height: 100px;
