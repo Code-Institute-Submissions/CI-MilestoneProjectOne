@@ -66,7 +66,6 @@ nav div a:hover{
 
 #signupcontainer h2 {
     font-size: 4vw;
-    
 }
 
 #signupbutton {
@@ -87,4 +86,17 @@ nav div a:hover{
 
 #signupbutton:hover {
     background-color: rgba(255, 0, 0, 0.5);
+}
+
+
+/* Facilities */
+
+.facilitiescontainer {
+    margin-top: 25px;
+}
+
+.facilitiesimages {
+    height: 350px;
+    width: 350px;
+    padding-right: 20px;
 }
