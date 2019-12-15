@@ -67,6 +67,15 @@ nav div a:hover{
     width: 100%;
     color: rgb(255, 255, 255);
     margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.signuptext {
+    position: absolute;
+    top: 25vh;
+    align-items: center;
+    justify-content: center;
 }
 
 #signupcontainer h1 {
@@ -152,7 +161,11 @@ nav div a:hover{
     padding-top: 40px;
 }
 
-
+@media (max-width: 768px) {
+.hideclasses{
+display: none
+}
+}
 
 
 
