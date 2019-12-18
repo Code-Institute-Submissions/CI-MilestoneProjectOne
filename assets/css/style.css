@@ -109,10 +109,18 @@ nav div a:hover{
 
 /* Facilities */
 
+.facilitiescontainer{
+    margin-bottom: 50px;
+}
 .facilitiesimages {
     height: auto;
     width: auto;
     margin: auto;
+}
+
+.facilitiestitle {
+    padding-top: 40px;
+    color: rgba(255, 0, 0, 0.8);
 }
 
 
@@ -149,11 +157,15 @@ nav div a:hover{
     padding-top: 40px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
 .hideclasses{
 display: none
 }
 }
 
 
+/* Trainers */
 
+.trainerstitle {
+    padding-top: 40px;
+}
