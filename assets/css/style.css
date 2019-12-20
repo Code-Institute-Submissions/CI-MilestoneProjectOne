@@ -8,6 +8,10 @@ body {
     font-family: 'Helvetica', 'roboto',  sans-serif;
 }
 
+.row {
+    margin: 0;
+}
+
 /* landing screen */
 
 #landingcontainer {
@@ -16,7 +20,6 @@ body {
     left:0;
     background: url('../images/Gym_floor_background_image.jpg') no-repeat center;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.65);
     height: 100vh;
     width: 100vw;
 }
@@ -31,26 +34,26 @@ body {
 
 /* Navbar */
 .navbar {
-    color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0);
     z-index: 1;
 }
 
-nav div a {
-    font-size: 1.1em;
+.navbar-brand{
     color: rgba(255, 0, 0, 0.8)!important;
+    font-size: 1.7em;
 }
 
-nav div a:hover{
-    color: rgba(255, 0, 0, 0.5)!important;
+.nav-link{
+    color: #fff!important;
+    font-size: 1.25em;
 }
 
-.navbar-brand {
-  font-size: 1.7em;
+.nav-link:hover{
+    color: rgba(240, 240, 240, 0.8)!important;
 }
 
-.fa-dumbbell{
+.logo{
     color: rgba(255, 0, 0, 0.8);
+    padding-left: 5px;
 }
  .navbar-toggler:focus, .navbar-toggler:active {
     outline: none;
@@ -67,15 +70,11 @@ nav div a:hover{
     width: 100%;
     color: rgb(255, 255, 255);
     margin: 0;
-    align-items: center;
-    justify-content: center;
 }
 
 .signuptext {
     position: absolute;
     top: 25vh;
-    align-items: center;
-    justify-content: center;
 }
 
 #signupcontainer h1 {
@@ -96,8 +95,6 @@ nav div a:hover{
     width: 110px;
     border-radius: 50%;
     color: #fff;
-    align-items: center;
-    justify-content: center;
     background-color: rgba(255, 0, 0, 0.8);
     cursor: pointer;
 }
@@ -139,7 +136,7 @@ nav div a:hover{
 .classicon{
     background-color: rgba(255, 0, 0, 0.8);
     color: #fff;
-    margin-top: 50px;
+    margin-top: 45px;
     margin-bottom: 25px;
     padding-top: 17px;
     font-size: 3em;
@@ -148,11 +145,7 @@ nav div a:hover{
     border-radius: 50%;
 }
 
-.classesrow{
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0;
-}
+
 
 .classestitle {
     padding-top: 40px;
@@ -172,9 +165,6 @@ display: none
     padding-bottom: 20px;
 }
 
-.trainersrow{
-    margin: 0;
-}
 
 /* Contact */
 
@@ -196,10 +186,6 @@ display: none
 
 #phone:hover, #email:hover{
     color: rgba(255, 0, 0, 0.8);
-}
-
-.contactrow{
-    margin: 0;
 }
 
 .map {
