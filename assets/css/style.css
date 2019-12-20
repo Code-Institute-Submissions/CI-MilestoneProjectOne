@@ -114,6 +114,7 @@ nav div a:hover{
 }
 .facilitiesimages {
     height: auto;
+    max-height: 80vh;
     width: auto;
     margin: auto;
 }
@@ -168,4 +169,65 @@ display: none
 
 .trainerstitle {
     padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.trainersrow{
+    margin: 0;
+}
+
+/* Contact */
+
+.contacttitle {
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.contactdetails{
+    color: #fff;
+    font-size: 20px;
+}
+
+#phone, #email{
+    text-decoration: none;
+    color: #fff;
+}
+
+#phone:hover, #email:hover{
+    color: rgba(255, 0, 0, 0.8);
+}
+
+.contactrow{
+    margin: 0;
+}
+
+.map {
+    width:90%;
+    height: 450px;
+}
+
+/* Footer */
+
+.socialicon {
+    background-color: rgba(255, 0, 0, 0.8);
+    margin-top: 50px;
+    margin-bottom: 25px;
+    padding-top: 7.5px;
+    font-size: 2em;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.socialicon a i {
+    color: #fff;
+}
+
+.socialicon a i:hover{
+    color: rgba(240, 240, 240, 0.8);
+}
+
+.list-inline{
+    margin: 0;
 }
