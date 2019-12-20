@@ -12,6 +12,10 @@ body {
     margin: 0;
 }
 
+h2 {
+    font-weight: 700;
+}
+
 /* landing screen */
 
 #landingcontainer {
@@ -81,7 +85,7 @@ body {
     font-size: 8vw;   
 }
 
-#signupcontainer h2 {
+#signupcontainer h3 {
     font-size: 4vw;
 }
 
