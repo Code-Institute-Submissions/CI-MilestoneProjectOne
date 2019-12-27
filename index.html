@@ -49,7 +49,7 @@
                             <h1>JOIN US TODAY</h1>
                             <h3>Only £19.99 Per Month & No Sign Up Fees!</h3>
                             <div class="row justify-content-center">
-                            <a id="signupbutton">Sign up</a>
+                            <a id="signupbutton" data-toggle="modal" data-target="#signup">Sign up</a>
                             </div>
                         </div>
                     </div>
@@ -284,6 +284,85 @@
 
     </div>
 <!--/ Landing screen container div -->
+
+<!-- Signup  Modal -->
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="signup">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content messagecontainer">
+            <div class="modal-header">
+                <h4 class="modal-title">Sign Up Today!</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="text-center">
+                        <input type="radio" id="daypass" name="membership">
+                        <label class="form-check-label" for="daypass">
+                            Day Pass - Free
+                        </label>
+                    </div>
+                    <div class="text-center">
+                        <input type="radio" id="monthly" name="membership">
+                        <label class="form-check-label" for="monthly">
+                            Monthly Membership - £19.99 per month
+                        </label>
+                    </div>
+                    <div class="text-center">
+                        <input type="radio" id="annual" name="membership">
+                        <label class="form-check-label" for="annual">
+                            Annual Membership - £200 per annum
+                        </label>
+                    </div>
+
+                    <div>
+                        <label for="firstname">First Name</label><br>
+                        <input type="text" id="firstname" class="form-control">
+                    </div><br>
+                     <div>
+                        <label for="surname">Surname</label><br>
+                        <input type="text" id="surname" class="form-control">
+                    </div><br>
+                    <div>
+                        <label for="emailaddress">Email Address</label><br>
+                        <input type="email" id="emailaddress" class="form-control">
+                    </div><br>
+                    <div>
+                        <label for="phoneno">Phone Number</label><br>
+                        <input type="tel" id="phoneno" class="form-control">
+                    </div><br>
+                    <div>
+                        <label for="address1">Address Line 1</label><br>
+                        <input type="text" id="address1" class="form-control">
+                    </div><br>
+                    <div>
+                        <label for="address2">Address Line 2</label><br>
+                        <input type="text" id="address2" class="form-control">
+                    </div><br>
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                        <label for="city">Town / City</label>
+                        <input type="text" id="city" class="form-control">
+                        </div>
+                        <div class="form-group col-md-4">
+                        <label for="county">County</label>
+                        <input type="text" id="county" class="form-control">
+                        </div>
+                        <div class="form-group col-md-4">
+                        <label for="postcode">Postcode</label>
+                        <input type="text" id="postcode" class="form-control">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-secondary">Proceed to Basket</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
 <!-- Contact us Modal -->
 
