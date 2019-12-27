@@ -175,6 +175,7 @@ display: none
 .card {
     margin: 30px auto;
     margin-top: 0;
+    height: 95%;
 }
 
 /* Contact */
