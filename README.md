@@ -2,7 +2,7 @@
 
 uGym is a made-up gym based in Shavington, Crewe.
 
-This website has been designed to display the offerings of this local gym to encourage the local populus to sign up to the gym.
+This website has been designed to encourage the local populus to sign up to the gym.
 
 The website has been designed to look professional and showcase the gym offerings.
 
@@ -13,7 +13,7 @@ A live demo can be found [here](https://lewisclark4.github.io/CI-MilestoneProjec
 ### User stories
 
 **Prospective Customer 1** 
-This prospective customer is relatively well accustomed to the gyms in the local area, and is therefore looking to identify either the cheapest (or perceived best value) gym in the local area.
+This prospective customer is relatively well accustomed to the gyms in the local area, and is looking to identify either the cheapest (or perceived best value) gym in the local area.
 
 **Prospective Customer 2**
 This prospective customer is keen to find the gym in the local area that caters for all of their training requirements, and therefore wants to be able to view all of the facilities in the gym.
@@ -26,17 +26,17 @@ This prospective customer is completely new to the world of fitness, and wants t
 
 ### Strategy
 My goal in the design was to make the site very visual with lots of images, and minimal amounts of text for the customers to read. 
-Ultimately the client is looking for a gym and just wants to see what facilities and services are available.
+Ultimately the customer is looking for a gym and just wants to see what facilities and services that are available with the associated costs.
 
 ### Scope
-The scope was to try and cater customers of all fitness levels & experience. Therefore it was very important to identify the key customers needs.
+The scope was to try and cater customers of all fitness levels & experience. Therefore it was very important to identify the key information that the customers would be looking for.
 
 I narrowed this down to;
 
-1. Cost
-2. Facilities provided
-3. Services provided (fitness classes etc.)
-4. Personal training
+1. Costs.
+2. Facilities provided.
+3. Services / classes provided.
+4. Personal training options.
 
 ### Structure
 
@@ -60,6 +60,7 @@ It is also important for customers to be able to contact the gym should they nee
 1. HTML
 2. CSS
 3. Bootstrap 4
+4. JavaScript / jQuery
 
 ## Features
 ### Nav Bar 
@@ -136,6 +137,7 @@ I frequently used [Responsinator](http://www.responsinator.com/) and Google DevT
 ### Socials
 1. Test that the color on hover changes.
 2. Test that the links take you to the respective social pages.
+3. Test that the links open in a different tab.
 
 ## Deployment
 The site is deployed on GitHub. 
@@ -172,7 +174,9 @@ I utilised concepts from the 'Whiskey Drop' mini project to help with the design
 
 I also utilised various explanations on [Bootstrap](https://getbootstrap.com/) in the design of my page, such as the carousel, card and modal sections.
 
-### Media
+However all code from the from 'Whiskey Drop' and Bootstrap has been specifically tailored for purpose by myself.
+
+### Images
 My images were sourced from the following stock images library, and were all free for use, sharing or modification, even commercially.
 
 [Flickr](https://www.flickr.com/)
