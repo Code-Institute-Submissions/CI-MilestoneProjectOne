@@ -62,6 +62,16 @@ It is also important for customers to be able to contact the gym should they nee
 3. Bootstrap 4
 4. JavaScript / jQuery
 
+### Tools
+1. Font Awesome (for icons)
+2. Microsoft Paint (to edit pictures)
+3. Cacoo (for wireframes)
+4. Responsinator (to check site responsiveness)
+5. Chrome DevTools (to check site responsiveness)
+6. W3C Markup Validation Service (to validate html)
+7. W3C CSS Validation Service (to validate css)
+8. GitHub & GitPod (repository & IDE)
+
 ## Features
 ### Nav Bar 
 The navbar contains links to each section of the page, and a smooth scrolling feature has been added to make the site more professional.
@@ -153,6 +163,11 @@ The site is deployed on GitHub.
 9. In your repository, select the settings option.
 10. Scroll Down to the github pages section and click on the dropdown option under source, and select master branch.
 11. This now publishes the site, and provides the URL to the site.
+
+
+The site can be ran locally by creating a clone of this repository. In the git hub repository, click on the clone or download button and copy the URL.
+
+Within a new git terminal, you can clone the project with the command git clone "Copied URL"
 
 ## Credits
 ### Content
