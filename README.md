@@ -59,7 +59,7 @@ It is also important for customers to be able to contact the gym should they nee
 ## Technologies
 1. HTML
 2. CSS
-3. Bootstrap (3.3.7)
+3. Bootstrap
 
 ## Features
 ### Nav Bar 
