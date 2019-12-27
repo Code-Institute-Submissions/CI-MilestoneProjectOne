@@ -92,15 +92,100 @@ This allowed me to identify any issues with my code, such as incorrect/ missing 
 
 I frequently used [Responsinator](http://www.responsinator.com/) and Google DevTools, to allow me to test the responsiveness of my site across different devices & resolutions.
 
+### Nav Bar
+1. Test links to all page sections work
+2. Test links change color on hover.
+3. Test toggle works on smaller devices.
+
+### Landing page
+1. Test image responsiveness across devices (fullscreen)
+2. Ensure pricing and sign up feature visible on the landing page across all devices and resolutions.
+
+### Sign up button
+1. Test clicking button and modal is opened
+2. Test that I am only able to select one radio button (not able to select multiple at the same time).
+3. Test that I am able to fill out all of the data boxes.
+4. Test that I am able to click the send message button.
+5. Test that I am able to close the modal if required.
+
+
+### Facilities
+1. Test that the images automatically cycle.
+2. Test that I am able to cycle through the images manually.
+3. Test image responsiveness across devices (does not blur or distort).
+
+### Classes
+1. Test image responsiveness across devices.
+2. Test breakpoints/ some classes are hidden on smaller devices.
+
+### Trainers
+1. Test image responsiveness across devices.
+
+### Contact
+1. Test responsiveness across devices.
+2. Test I am able to open, or scroll across the map to see the wider local area for directions.
+3. Test that I am able to select the email address to send an email to the gym.
+4. Test that I am able to select the phone number to call the gym.
+
+#### Send a message modal
+1. Test clicking button and modal is opened
+2. Test that I am able to fill out all of the data boxes.
+3. Test that I am able to click the send message button.
+4. Test that I am able to close the modal if required.
+
+### Socials
+1. Test that the color on hover changes.
+2. Test that the links take you to the respective social pages.
+
 ## Deployment
+The site is deployed on GitHub. 
+
+1. Create a git hub repository.
+2. Open in GitPod
+3. Create index.html file.
+4. Add the file to staging area using the command git add index.html (or git add .)
+5. We then want to commit the file, with the command git commit -m "Intial commit" (standard practice for the first commit into a repository).
+6. We then want to push the file back to the repository, which can be done with the command git push.
+7. You should now be able to see this commit in your repository.
+8. You can repeat steps 5-7 for any further updates to the file (though your git commit message should contain more detail regarding the updates).
+9. In your repository, select the settings option.
+10. Scroll Down to the github pages section and click on the dropdown option under source, and select master branch.
+11. This now publishes the site, and provides the URL to the site.
 
 ## Credits
-
 ### Content
+All content was written by myself. 
+
+I used many local gyms for ideas and comparison.
+
+[Area51](https://www.area51gym.co.uk/)
+
+[Simply Gym](https://simplygym.co.uk/gyms/crewe/)
+
+[Total Fitness](https://www.totalfitness.co.uk/)
+
+[Bannatyne](https://www.bannatyne.co.uk/health-club/crewe)
+
+[Snap Fitness](https://www.snapfitness.com/uk/gyms/crewe/)
+
+I utilised concepts from the 'Whiskey Drop' mini project to help with the design principles of my site, for example the overlay and the 'hiding' of items on smaller devices.
+
+I also utilised various explanations on [Bootstrap](https://getbootstrap.com/) in the design of my page, such as the carousel, card and modal sections.
 
 ### Media
+My images were sourced from the following stock images library, and were all free for use, sharing or modification, even commercially.
 
-### Websites
+[Flickr](https://www.flickr.com/)
+
+[Unsplash](https://unsplash.com/)
+
+[Pixabay](https://pixabay.com/)
+
+All of the icons on the page were sourced from [Font Awesome](https://fontawesome.com/)
 
 ### Acknowledgements
+#### Anna Greaves
+I used Anna's excellent "How to make a Kick Ass first Milestone" and UXD documents to help provide some structure and guidance to my project.
 
+#### Cacoo
+I used [Cacoo](https://cacoo.com/) to create my wireframes for this project.
