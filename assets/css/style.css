@@ -22,7 +22,7 @@ h2 {
     position: absolute;
     top:0;
     left:0;
-    background: url('../images/gym_floor_background_image.jpg') no-repeat center;
+    background: url('../images/gym_floor_background_image.jpg') no-repeat center fixed;
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -48,7 +48,7 @@ h2 {
 
 .nav-link{
     color: #fff!important;
-    font-size: 1.25em;
+    font-size: 1.20em;
 }
 
 .nav-link:hover{
@@ -58,9 +58,10 @@ h2 {
 .logo{
     color: rgba(255, 0, 0, 0.8);
     padding-left: 5px;
+    padding-right: 10px;
 }
  .navbar-toggler:focus, .navbar-toggler:active {
-    outline: none;
+    outline-color: rgba(255, 0, 0, 0.8);
 }
 
 
@@ -77,8 +78,8 @@ h2 {
 }
 
 .signuptext {
-    position: absolute;
-    top: 25vh;
+  position: relative;
+  top: 15%;
 }
 
 #signupcontainer h1 {
@@ -123,13 +124,14 @@ h2 {
 .facilitiestitle {
     padding-top: 40px;
     color: rgba(255, 0, 0, 0.8);
+    margin-bottom: 25px;
 }
 
 
 /* Classes */
 
 .classescontainer {
-    background: url('../images/bootcamp.jpg') no-repeat;
+    background: url('../images/bootcamp.jpg') no-repeat center fixed;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.65);
     height: 700px;
@@ -172,29 +174,27 @@ display: none
 
 .card {
     margin: 30px auto;
-    border-color:  rgba(255, 0, 0, 0.8); 
-}
-
-.card-title, .card-text {
-    color: rgba(255, 0, 0, 0.8);
+    margin-top: 0;
 }
 
 /* Contact */
 
-.contacttitle {
+#contact{
     color: #fff;
+}
+
+.contacttitle {
     padding-top: 40px;
     padding-bottom: 20px;
 }
 
 .contactdetails{
-    color: #fff;
     font-size: 20px;
 }
 
 #phone, #email{
     text-decoration: none;
-    color: #fff;
+    color: #fff
 }
 
 #phone:hover, #email:hover{
