@@ -22,10 +22,10 @@ h2 {
     position: absolute;
     top:0;
     left:0;
-    background: url('../images/Gym_floor_background_image.jpg') no-repeat center;
+    background: url('../images/gym_floor_background_image.jpg') no-repeat center;
     background-size: cover;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 
 .opaque-overlay {
@@ -167,8 +167,17 @@ display: none
 .trainerstitle {
     padding-top: 40px;
     padding-bottom: 20px;
+    color: rgba(255, 0, 0, 0.8);
 }
 
+.card {
+    margin: 30px auto;
+    border-color:  rgba(255, 0, 0, 0.8); 
+}
+
+.card-title, .card-text {
+    color: rgba(255, 0, 0, 0.8);
+}
 
 /* Contact */
 
