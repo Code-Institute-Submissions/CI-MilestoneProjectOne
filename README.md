@@ -59,7 +59,7 @@ It is also important for customers to be able to contact the gym should they nee
 ## Technologies
 1. HTML
 2. CSS
-3. Bootstrap
+3. Bootstrap 4
 
 ## Features
 ### Nav Bar 
@@ -73,7 +73,7 @@ There is a visible sign up button on the landing page, that the client can click
 The facilities section contains a carousel, which automatically scrolls through a number of images of the gym's facilities. 
 The prospective customer is also able to cycle through the images at the click of a button.
 
-###Contact
+### Contact
 This section of the site details address, phone number and email address for the gym, as well as a 'send a message' modal, allowing a prospective customer to submit queries online. 
 
 It also includes iframe of Google Maps displaying the location of the gym and the local area.
