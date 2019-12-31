@@ -206,8 +206,8 @@ All of the icons on the page were sourced from [Font Awesome](https://fontawesom
 #### Anna Greaves
 I used Anna's excellent "How to make a Kick Ass first Milestone" and UXD documents to help provide some structure and guidance to my project.
 
-### Richard Wells
+#### Richard Wells
 Richard provided some guidance on code best practice and some areas of my code to review accordingly.
 
-### Antonio Rodriguez
+#### Antonio Rodriguez
 As my mentor, Antonio provide guidance on content and styling for my site.
