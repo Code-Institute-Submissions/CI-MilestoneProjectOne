@@ -41,18 +41,18 @@ h2 {
     z-index: 1;
 }
 
-.navbar-brand{
-    color: rgba(255, 0, 0, 0.8)!important;
+.navbar-dark .navbar-header .navbar-brand{
+    color: rgba(255, 0, 0, 0.8);
     font-size: 1.7em;
 }
 
-.nav-link{
-    color: #fff!important;
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
     font-size: 1.20em;
 }
 
-.nav-link:hover{
-    color: rgba(240, 240, 240, 0.8)!important;
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: rgba(240, 240, 240, 0.8);
 }
 
 .logo{
@@ -82,7 +82,7 @@ h2 {
   top: 15%;
 }
 
-#signupcontainer h1 {
+#signupcontainer .signuptitle {
     font-size: 8vw;   
 }
 
