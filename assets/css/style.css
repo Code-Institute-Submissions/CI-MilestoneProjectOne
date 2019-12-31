@@ -116,8 +116,7 @@ h2 {
 }
 .facilitiesimages {
     height: auto;
-    max-height: 80vh;
-    width: auto;
+    width: 65%;
     margin: auto;
 }
 
